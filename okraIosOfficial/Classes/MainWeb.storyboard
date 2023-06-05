@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17150" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17122"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="quF-nb-Vnv">
+                    <objects>
+                        <viewController storyboardIdentifier="okraWebView" id="rYQ-vX-HbH" customClass="OkraWebView" customModule="OkraWidget" customModuleProvider="target" sceneMemberID="viewController">
+                            <view key="view" contentMode="scaleToFill" id="50N-yw-cDm">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GIx-fl-lT7">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="LRB-F2-93p"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="GIx-fl-lT7" firstAttribute="top" secondItem="LRB-F2-93p" secondAttribute="top" id="0OC-sK-hC4"/>
+                                    <constraint firstItem="LRB-F2-93p" firstAttribute="trailing" secondItem="GIx-fl-lT7" secondAttribute="trailing" id="IPP-2P-dry"/>
+                                    <constraint firstItem="LRB-F2-93p" firstAttribute="bottom" secondItem="GIx-fl-lT7" secondAttribute="bottom" id="UWK-gw-KPq"/>
+                                    <constraint firstItem="GIx-fl-lT7" firstAttribute="leading" secondItem="LRB-F2-93p" secondAttribute="leading" id="YBS-xc-gbu"/>
+                                </constraints>
+                            </view>
+                            <connections>
+                                <outlet property="web" destination="GIx-fl-lT7" id="LZu-lp-1Qp"/>
+                            </connections>
+                        </viewController>
+                        <placeholder placeholderIdentifier="IBFirstResponder" id="Ghh-EA-rIl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                    </objects>
+                    <point key="canvasLocation" x="138" y="80"/>
+                </scene>
+        <!--View Controller-->
+<!--        <scene sceneID="s0d-6b-0kx">-->
+<!--            <objects>-->
+<!--                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">-->
+<!--                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">-->
+<!--                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>-->
+<!--                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>-->
+<!--                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>-->
+<!--                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>-->
+<!--                    </view>-->
+<!--                </viewController>-->
+<!--                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>-->
+<!--            </objects>-->
+<!--        </scene>-->
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

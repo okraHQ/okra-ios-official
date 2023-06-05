@@ -1,0 +1,6 @@
+framework module okraIosOfficial {
+  umbrella header "okraIosOfficial-umbrella.h"
+
+  export *
+  module * { export * }
+}

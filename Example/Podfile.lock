@@ -1,0 +1,23 @@
+PODS:
+  - DeviceKit (4.9.0)
+  - okraIosOfficial (0.1.0):
+    - DeviceKit (~> 4.0)
+
+DEPENDENCIES:
+  - okraIosOfficial (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - DeviceKit
+
+EXTERNAL SOURCES:
+  okraIosOfficial:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DeviceKit: 847709bf70b78fd9ab765bd571fb9f5f815c3fc1
+  okraIosOfficial: 57c1afb2965504524ba50b50e5b0cfba91546313
+
+PODFILE CHECKSUM: f71d2d0cdca3644d86297af65684c3f4d88a591b
+
+COCOAPODS: 1.12.1

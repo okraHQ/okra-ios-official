@@ -1,0 +1,985 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0299C1589F37C4D8F3117FBC38ABCAE3 /* okraIosOfficial-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF3CF97DE5F19229B246DEA65A20750 /* okraIosOfficial-dummy.m */; };
+		1610B04AC2C206AC1AA5292176DCD0BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1CB99EEA26DFB6E4607994D3EB7539C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1E909EB12C1EAC4BA141FB502654D49B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		20637ECCDFD96637A485C6F5D34C16EE /* MainWeb.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 520F91468F65E21864437EA5C687A378 /* MainWeb.storyboard */; };
+		44FDC841C20165E2DE68E31737A401DC /* DeviceKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3999B5917D2FE6E6B28DF178B6E1965 /* DeviceKit-dummy.m */; };
+		523F64CEBD9490FCE16205C78DAAE483 /* Pods-okraIosOfficial_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB210C0086CE96865099C16D1534BF /* Pods-okraIosOfficial_Example-dummy.m */; };
+		6974018E18D2FB29FF02D7F1BCB2C773 /* okraIosOfficial-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EF46AA5B9B6AF4127AAC9BDC00B3148 /* okraIosOfficial-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B4C67CC9C32CFEF539C29B3BC2C73A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7A45062CF298BF086510FEC880B2A641 /* Pods-okraIosOfficial_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC6FA534D9736518BE03479E1693B75 /* Pods-okraIosOfficial_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FEF5BF63248E461A0DF2B8ADF80AFB5 /* Pods-okraIosOfficial_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E5A46A8F72D489577F7AD34AC46A2B /* Pods-okraIosOfficial_Tests-dummy.m */; };
+		9E0E3BDD202F800217DBAA66065CCE4A /* Pods-okraIosOfficial_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73769349C997E015E160DB34818A8888 /* Pods-okraIosOfficial_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7E790803FAED5ECACD2736CD7E89615 /* Okra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E98A7A0F2F5275F56F951065ABF5923 /* Okra.swift */; };
+		AE419A0EB119A1B529D3E851011B031C /* DeviceKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A33F6E08BDC27A1AE9049076DDE832 /* DeviceKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B637EAABBCD7CCE09B50123B943B9554 /* OkraHtml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F79BE21D4B79FD2E207E6F4BE24BB /* OkraHtml.swift */; };
+		C5C71141A72424BC3711B53BB4726744 /* Device.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479FDC8A3863DC0B938FD5660860C9D2 /* Device.generated.swift */; };
+		D7B56B0E3AFAC7725B9FC1A18FE0FF76 /* OkraWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366E99A8DA2F26253D0C1872976E11D1 /* OkraWebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F76E503FF2F24F26477D7D2E0DA498B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDD1C6C8885D07092D8EA708AAC0E53;
+			remoteInfo = DeviceKit;
+		};
+		4D2059587780875E76142B3F9B8720EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDD1C6C8885D07092D8EA708AAC0E53;
+			remoteInfo = DeviceKit;
+		};
+		8476716D073D545BC98537058C40F779 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C0B485EA164D62F6731E603DE148AC4;
+			remoteInfo = okraIosOfficial;
+		};
+		CC7833A16021014378842A1A8B1F7A15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E56055E9FD5A5740DD0F5947FD151FBB;
+			remoteInfo = "Pods-okraIosOfficial_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		129E0BA3366DD40E7D55C9EA4187C38C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		14A33F6E08BDC27A1AE9049076DDE832 /* DeviceKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeviceKit-umbrella.h"; sourceTree = "<group>"; };
+		190D7383CCEFD8AB3F8CB93098A3F214 /* DeviceKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DeviceKit; path = DeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6ABB37D6D5EA71101CD7F5A215CD1D /* okraIosOfficial.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = okraIosOfficial.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1AF3CF97DE5F19229B246DEA65A20750 /* okraIosOfficial-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "okraIosOfficial-dummy.m"; sourceTree = "<group>"; };
+		1DC6FA534D9736518BE03479E1693B75 /* Pods-okraIosOfficial_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-okraIosOfficial_Example-umbrella.h"; sourceTree = "<group>"; };
+		1EF46AA5B9B6AF4127AAC9BDC00B3148 /* okraIosOfficial-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "okraIosOfficial-umbrella.h"; sourceTree = "<group>"; };
+		2170A0A9AD58A6A4A86FBDEE4720DCD7 /* Pods-okraIosOfficial_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-okraIosOfficial_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		28ACD90553893C248B01C14E938612B3 /* Pods-okraIosOfficial_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-okraIosOfficial_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2ED707D2B873CBA9186762118CE7568C /* Pods-okraIosOfficial_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-okraIosOfficial_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		31404D86FBA1437C387E639057A212F1 /* okraIosOfficial.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = okraIosOfficial.modulemap; sourceTree = "<group>"; };
+		366E99A8DA2F26253D0C1872976E11D1 /* OkraWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OkraWebView.swift; path = okraIosOfficial/Classes/OkraWebView.swift; sourceTree = "<group>"; };
+		3D40AA9BDC0C1DD252F951B5EB1F9A81 /* Pods-okraIosOfficial_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-okraIosOfficial_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		450E828B969A27477951315F5B905EF0 /* Pods-okraIosOfficial_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-okraIosOfficial_Example"; path = Pods_okraIosOfficial_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		479FDC8A3863DC0B938FD5660860C9D2 /* Device.generated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Device.generated.swift; path = Source/Device.generated.swift; sourceTree = "<group>"; };
+		47A63ABCAD567581EDB2F9820FB2DDDB /* Pods-okraIosOfficial_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-okraIosOfficial_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		480592A68013C5893439F60DF12481DB /* Pods-okraIosOfficial_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-okraIosOfficial_Example.release.xcconfig"; sourceTree = "<group>"; };
+		520F91468F65E21864437EA5C687A378 /* MainWeb.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = MainWeb.storyboard; path = okraIosOfficial/Classes/MainWeb.storyboard; sourceTree = "<group>"; };
+		5E8ECFB94704E6A543A3B84E6C341700 /* Pods-okraIosOfficial_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-okraIosOfficial_Tests"; path = Pods_okraIosOfficial_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60E5A46A8F72D489577F7AD34AC46A2B /* Pods-okraIosOfficial_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-okraIosOfficial_Tests-dummy.m"; sourceTree = "<group>"; };
+		67CA91F1B3485899932D89105D9ADFF2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6A40F9F2430A2E687239ADC6262539BF /* Pods-okraIosOfficial_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-okraIosOfficial_Tests.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73769349C997E015E160DB34818A8888 /* Pods-okraIosOfficial_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-okraIosOfficial_Tests-umbrella.h"; sourceTree = "<group>"; };
+		73C2A6ED7186883AD0BF84E7FBBABECE /* DeviceKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DeviceKit.modulemap; sourceTree = "<group>"; };
+		7FAB210C0086CE96865099C16D1534BF /* Pods-okraIosOfficial_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-okraIosOfficial_Example-dummy.m"; sourceTree = "<group>"; };
+		8C592509AEA0C5FE2545310267D1322B /* okraIosOfficial-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "okraIosOfficial-Info.plist"; sourceTree = "<group>"; };
+		8D346B0BACAF0E195A0850EDE34322CF /* DeviceKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeviceKit.debug.xcconfig; sourceTree = "<group>"; };
+		8E98A7A0F2F5275F56F951065ABF5923 /* Okra.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Okra.swift; path = okraIosOfficial/Classes/Okra.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0F79BE21D4B79FD2E207E6F4BE24BB /* OkraHtml.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OkraHtml.swift; path = okraIosOfficial/Classes/OkraHtml.swift; sourceTree = "<group>"; };
+		A5348B885476F3C3D6C8AFCCEC3675A6 /* DeviceKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeviceKit-prefix.pch"; sourceTree = "<group>"; };
+		A63827CE37AE0F9960CE167F710C4780 /* okraIosOfficial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = okraIosOfficial.release.xcconfig; sourceTree = "<group>"; };
+		AB2F95270FE0F1114A1D42DD806E14DD /* Pods-okraIosOfficial_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-okraIosOfficial_Tests-Info.plist"; sourceTree = "<group>"; };
+		B603705334D9E31BB530EB4958ED6486 /* Pods-okraIosOfficial_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-okraIosOfficial_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BB4E42C02EB0BE159982A902DD94F416 /* okraIosOfficial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = okraIosOfficial.debug.xcconfig; sourceTree = "<group>"; };
+		C27EE525FEE0A84EA7141CEFC09846FB /* Pods-okraIosOfficial_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-okraIosOfficial_Example-Info.plist"; sourceTree = "<group>"; };
+		C669D1CB466B8377A0F9EC45E337E1C8 /* Pods-okraIosOfficial_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-okraIosOfficial_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC1013DE97F03796A1A1A838C7338E81 /* Pods-okraIosOfficial_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-okraIosOfficial_Example.modulemap"; sourceTree = "<group>"; };
+		CEDD1D4FDE215F4E1A8743B04FAD444E /* Pods-okraIosOfficial_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-okraIosOfficial_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D13DC9D6B074887452F9DE2FE8D99B46 /* DeviceKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DeviceKit-Info.plist"; sourceTree = "<group>"; };
+		DE8A1E55563D85B79DE32C2452912FD4 /* okraIosOfficial */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = okraIosOfficial; path = okraIosOfficial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3999B5917D2FE6E6B28DF178B6E1965 /* DeviceKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DeviceKit-dummy.m"; sourceTree = "<group>"; };
+		E6A188B75464459B10167F40A29B6048 /* okraIosOfficial-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "okraIosOfficial-prefix.pch"; sourceTree = "<group>"; };
+		F7274719FAE2990DC2AB8E6D21969BB7 /* DeviceKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeviceKit.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C616238525BCC61AE0C0C4690227BE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E909EB12C1EAC4BA141FB502654D49B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A25A45466737E936A4BEC5B96C38CEFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB99EEA26DFB6E4607994D3EB7539C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2B0A0AF8B543687B633980DE6508FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1610B04AC2C206AC1AA5292176DCD0BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9070B8A2E5A30D4F8875CD1FFE2113F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4C67CC9C32CFEF539C29B3BC2C73A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32E4CFB93A5B11C678B562236061C25B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB6F3298CCB574E902926B52B62C6DA6 /* okraIosOfficial */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4D23A1F1B2AC6B0C253DBF2D538936A6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				757F9F1EBD2D73171F5E4B3870EB7077 /* Pods-okraIosOfficial_Example */,
+				8674304FDBB06640972B09AD64F6CCA2 /* Pods-okraIosOfficial_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		757F9F1EBD2D73171F5E4B3870EB7077 /* Pods-okraIosOfficial_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CC1013DE97F03796A1A1A838C7338E81 /* Pods-okraIosOfficial_Example.modulemap */,
+				2ED707D2B873CBA9186762118CE7568C /* Pods-okraIosOfficial_Example-acknowledgements.markdown */,
+				C669D1CB466B8377A0F9EC45E337E1C8 /* Pods-okraIosOfficial_Example-acknowledgements.plist */,
+				7FAB210C0086CE96865099C16D1534BF /* Pods-okraIosOfficial_Example-dummy.m */,
+				B603705334D9E31BB530EB4958ED6486 /* Pods-okraIosOfficial_Example-frameworks.sh */,
+				C27EE525FEE0A84EA7141CEFC09846FB /* Pods-okraIosOfficial_Example-Info.plist */,
+				1DC6FA534D9736518BE03479E1693B75 /* Pods-okraIosOfficial_Example-umbrella.h */,
+				3D40AA9BDC0C1DD252F951B5EB1F9A81 /* Pods-okraIosOfficial_Example.debug.xcconfig */,
+				480592A68013C5893439F60DF12481DB /* Pods-okraIosOfficial_Example.release.xcconfig */,
+			);
+			name = "Pods-okraIosOfficial_Example";
+			path = "Target Support Files/Pods-okraIosOfficial_Example";
+			sourceTree = "<group>";
+		};
+		8674304FDBB06640972B09AD64F6CCA2 /* Pods-okraIosOfficial_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6A40F9F2430A2E687239ADC6262539BF /* Pods-okraIosOfficial_Tests.modulemap */,
+				47A63ABCAD567581EDB2F9820FB2DDDB /* Pods-okraIosOfficial_Tests-acknowledgements.markdown */,
+				CEDD1D4FDE215F4E1A8743B04FAD444E /* Pods-okraIosOfficial_Tests-acknowledgements.plist */,
+				60E5A46A8F72D489577F7AD34AC46A2B /* Pods-okraIosOfficial_Tests-dummy.m */,
+				AB2F95270FE0F1114A1D42DD806E14DD /* Pods-okraIosOfficial_Tests-Info.plist */,
+				73769349C997E015E160DB34818A8888 /* Pods-okraIosOfficial_Tests-umbrella.h */,
+				2170A0A9AD58A6A4A86FBDEE4720DCD7 /* Pods-okraIosOfficial_Tests.debug.xcconfig */,
+				28ACD90553893C248B01C14E938612B3 /* Pods-okraIosOfficial_Tests.release.xcconfig */,
+			);
+			name = "Pods-okraIosOfficial_Tests";
+			path = "Target Support Files/Pods-okraIosOfficial_Tests";
+			sourceTree = "<group>";
+		};
+		8832829C06B73FCE09DFAD2C41A2F047 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73C2A6ED7186883AD0BF84E7FBBABECE /* DeviceKit.modulemap */,
+				E3999B5917D2FE6E6B28DF178B6E1965 /* DeviceKit-dummy.m */,
+				D13DC9D6B074887452F9DE2FE8D99B46 /* DeviceKit-Info.plist */,
+				A5348B885476F3C3D6C8AFCCEC3675A6 /* DeviceKit-prefix.pch */,
+				14A33F6E08BDC27A1AE9049076DDE832 /* DeviceKit-umbrella.h */,
+				8D346B0BACAF0E195A0850EDE34322CF /* DeviceKit.debug.xcconfig */,
+				F7274719FAE2990DC2AB8E6D21969BB7 /* DeviceKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DeviceKit";
+			sourceTree = "<group>";
+		};
+		CD4AE80CF7CFBA094A91EA69A66439FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				190D7383CCEFD8AB3F8CB93098A3F214 /* DeviceKit */,
+				DE8A1E55563D85B79DE32C2452912FD4 /* okraIosOfficial */,
+				450E828B969A27477951315F5B905EF0 /* Pods-okraIosOfficial_Example */,
+				5E8ECFB94704E6A543A3B84E6C341700 /* Pods-okraIosOfficial_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				32E4CFB93A5B11C678B562236061C25B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EFC12DBB242C95DD54F2F8CD7D441E8D /* Pods */,
+				CD4AE80CF7CFBA094A91EA69A66439FF /* Products */,
+				4D23A1F1B2AC6B0C253DBF2D538936A6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB6F3298CCB574E902926B52B62C6DA6 /* okraIosOfficial */ = {
+			isa = PBXGroup;
+			children = (
+				520F91468F65E21864437EA5C687A378 /* MainWeb.storyboard */,
+				8E98A7A0F2F5275F56F951065ABF5923 /* Okra.swift */,
+				9E0F79BE21D4B79FD2E207E6F4BE24BB /* OkraHtml.swift */,
+				366E99A8DA2F26253D0C1872976E11D1 /* OkraWebView.swift */,
+				E63970049C1A17620B51BC659C9744E3 /* Pod */,
+				EC608BCB55F5561836D289623912BF36 /* Support Files */,
+			);
+			name = okraIosOfficial;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E63970049C1A17620B51BC659C9744E3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				129E0BA3366DD40E7D55C9EA4187C38C /* LICENSE */,
+				1A6ABB37D6D5EA71101CD7F5A215CD1D /* okraIosOfficial.podspec */,
+				67CA91F1B3485899932D89105D9ADFF2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EC608BCB55F5561836D289623912BF36 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31404D86FBA1437C387E639057A212F1 /* okraIosOfficial.modulemap */,
+				1AF3CF97DE5F19229B246DEA65A20750 /* okraIosOfficial-dummy.m */,
+				8C592509AEA0C5FE2545310267D1322B /* okraIosOfficial-Info.plist */,
+				E6A188B75464459B10167F40A29B6048 /* okraIosOfficial-prefix.pch */,
+				1EF46AA5B9B6AF4127AAC9BDC00B3148 /* okraIosOfficial-umbrella.h */,
+				BB4E42C02EB0BE159982A902DD94F416 /* okraIosOfficial.debug.xcconfig */,
+				A63827CE37AE0F9960CE167F710C4780 /* okraIosOfficial.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/okraIosOfficial";
+			sourceTree = "<group>";
+		};
+		EFC12DBB242C95DD54F2F8CD7D441E8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE90B3219D589BE369C32EC9707D8F36 /* DeviceKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE90B3219D589BE369C32EC9707D8F36 /* DeviceKit */ = {
+			isa = PBXGroup;
+			children = (
+				479FDC8A3863DC0B938FD5660860C9D2 /* Device.generated.swift */,
+				8832829C06B73FCE09DFAD2C41A2F047 /* Support Files */,
+			);
+			name = DeviceKit;
+			path = DeviceKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10FC0BE1EC484409D0C8F0FEF3232982 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0E3BDD202F800217DBAA66065CCE4A /* Pods-okraIosOfficial_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FBBADFEE8AB9436539DC2DC933A899 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6974018E18D2FB29FF02D7F1BCB2C773 /* okraIosOfficial-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B869F45523B08C188EC6722E1DD8C363 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE419A0EB119A1B529D3E851011B031C /* DeviceKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3E12C392BB02D680C476E488C0E518 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A45062CF298BF086510FEC880B2A641 /* Pods-okraIosOfficial_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C0B485EA164D62F6731E603DE148AC4 /* okraIosOfficial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF6500CA2E1A662BFB307BEFD26670F1 /* Build configuration list for PBXNativeTarget "okraIosOfficial" */;
+			buildPhases = (
+				40FBBADFEE8AB9436539DC2DC933A899 /* Headers */,
+				F9821D0C61B7AB0A095982EFE09B5FE0 /* Sources */,
+				C9070B8A2E5A30D4F8875CD1FFE2113F /* Frameworks */,
+				74C4A3D44DDA4489DFB669584B0E064A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				492811FAC67FD65C2D273920246FF1DC /* PBXTargetDependency */,
+			);
+			name = okraIosOfficial;
+			productName = okraIosOfficial;
+			productReference = DE8A1E55563D85B79DE32C2452912FD4 /* okraIosOfficial */;
+			productType = "com.apple.product-type.framework";
+		};
+		32F720F245C7939322888137043F8330 /* Pods-okraIosOfficial_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3F3C3E9536560286B61D729F582868A /* Build configuration list for PBXNativeTarget "Pods-okraIosOfficial_Tests" */;
+			buildPhases = (
+				10FC0BE1EC484409D0C8F0FEF3232982 /* Headers */,
+				FCA999A25D58DDD753D1D3F7F11C2BFE /* Sources */,
+				A25A45466737E936A4BEC5B96C38CEFB /* Frameworks */,
+				2EAD9D8ABF346DBEDC7EFE083663C6D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A3833214E38219A7E7EFBA22E009ADA /* PBXTargetDependency */,
+			);
+			name = "Pods-okraIosOfficial_Tests";
+			productName = Pods_okraIosOfficial_Tests;
+			productReference = 5E8ECFB94704E6A543A3B84E6C341700 /* Pods-okraIosOfficial_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		4CDD1C6C8885D07092D8EA708AAC0E53 /* DeviceKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2416AB9D0716DFAC4C6C724B0E6744 /* Build configuration list for PBXNativeTarget "DeviceKit" */;
+			buildPhases = (
+				B869F45523B08C188EC6722E1DD8C363 /* Headers */,
+				B024EDE69B3C51D739853194CE746FE4 /* Sources */,
+				6C616238525BCC61AE0C0C4690227BE1 /* Frameworks */,
+				8EE6FBD90231B8B4128EE874B295E36F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceKit;
+			productName = DeviceKit;
+			productReference = 190D7383CCEFD8AB3F8CB93098A3F214 /* DeviceKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		E56055E9FD5A5740DD0F5947FD151FBB /* Pods-okraIosOfficial_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 511C620BD2D22CE744459164C0BF6E47 /* Build configuration list for PBXNativeTarget "Pods-okraIosOfficial_Example" */;
+			buildPhases = (
+				DC3E12C392BB02D680C476E488C0E518 /* Headers */,
+				575DBCF9DE0BE47F5BB320B027749F79 /* Sources */,
+				AB2B0A0AF8B543687B633980DE6508FA /* Frameworks */,
+				1CAF5999A991E00A0C9F4A4EC5153144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B12F6DDC8A93030F1327ADC052C00E9 /* PBXTargetDependency */,
+				C44CF898A26E72EE0F9DB898E81F7DB6 /* PBXTargetDependency */,
+			);
+			name = "Pods-okraIosOfficial_Example";
+			productName = Pods_okraIosOfficial_Example;
+			productReference = 450E828B969A27477951315F5B905EF0 /* Pods-okraIosOfficial_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CD4AE80CF7CFBA094A91EA69A66439FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CDD1C6C8885D07092D8EA708AAC0E53 /* DeviceKit */,
+				1C0B485EA164D62F6731E603DE148AC4 /* okraIosOfficial */,
+				E56055E9FD5A5740DD0F5947FD151FBB /* Pods-okraIosOfficial_Example */,
+				32F720F245C7939322888137043F8330 /* Pods-okraIosOfficial_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CAF5999A991E00A0C9F4A4EC5153144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EAD9D8ABF346DBEDC7EFE083663C6D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C4A3D44DDA4489DFB669584B0E064A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE6FBD90231B8B4128EE874B295E36F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		575DBCF9DE0BE47F5BB320B027749F79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523F64CEBD9490FCE16205C78DAAE483 /* Pods-okraIosOfficial_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B024EDE69B3C51D739853194CE746FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C71141A72424BC3711B53BB4726744 /* Device.generated.swift in Sources */,
+				44FDC841C20165E2DE68E31737A401DC /* DeviceKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9821D0C61B7AB0A095982EFE09B5FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20637ECCDFD96637A485C6F5D34C16EE /* MainWeb.storyboard in Sources */,
+				A7E790803FAED5ECACD2736CD7E89615 /* Okra.swift in Sources */,
+				B637EAABBCD7CCE09B50123B943B9554 /* OkraHtml.swift in Sources */,
+				0299C1589F37C4D8F3117FBC38ABCAE3 /* okraIosOfficial-dummy.m in Sources */,
+				D7B56B0E3AFAC7725B9FC1A18FE0FF76 /* OkraWebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA999A25D58DDD753D1D3F7F11C2BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEF5BF63248E461A0DF2B8ADF80AFB5 /* Pods-okraIosOfficial_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A3833214E38219A7E7EFBA22E009ADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-okraIosOfficial_Example";
+			target = E56055E9FD5A5740DD0F5947FD151FBB /* Pods-okraIosOfficial_Example */;
+			targetProxy = CC7833A16021014378842A1A8B1F7A15 /* PBXContainerItemProxy */;
+		};
+		492811FAC67FD65C2D273920246FF1DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DeviceKit;
+			target = 4CDD1C6C8885D07092D8EA708AAC0E53 /* DeviceKit */;
+			targetProxy = 4D2059587780875E76142B3F9B8720EC /* PBXContainerItemProxy */;
+		};
+		8B12F6DDC8A93030F1327ADC052C00E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DeviceKit;
+			target = 4CDD1C6C8885D07092D8EA708AAC0E53 /* DeviceKit */;
+			targetProxy = 2F76E503FF2F24F26477D7D2E0DA498B /* PBXContainerItemProxy */;
+		};
+		C44CF898A26E72EE0F9DB898E81F7DB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = okraIosOfficial;
+			target = 1C0B485EA164D62F6731E603DE148AC4 /* okraIosOfficial */;
+			targetProxy = 8476716D073D545BC98537058C40F779 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0973BFF5F6FD4E74E45C4D1FC304CF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A63827CE37AE0F9960CE167F710C4780 /* okraIosOfficial.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/okraIosOfficial/okraIosOfficial-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/okraIosOfficial/okraIosOfficial-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/okraIosOfficial/okraIosOfficial.modulemap";
+				PRODUCT_MODULE_NAME = okraIosOfficial;
+				PRODUCT_NAME = okraIosOfficial;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0D9B505D3B5AEEC8557EB89A1ED8ED2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2170A0A9AD58A6A4A86FBDEE4720DCD7 /* Pods-okraIosOfficial_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-okraIosOfficial_Tests/Pods-okraIosOfficial_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-okraIosOfficial_Tests/Pods-okraIosOfficial_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1DA4A37BC9636B0F1E31610B8A716643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB4E42C02EB0BE159982A902DD94F416 /* okraIosOfficial.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/okraIosOfficial/okraIosOfficial-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/okraIosOfficial/okraIosOfficial-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/okraIosOfficial/okraIosOfficial.modulemap";
+				PRODUCT_MODULE_NAME = okraIosOfficial;
+				PRODUCT_NAME = okraIosOfficial;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DE15074050361C271BA4AF8F3492ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D346B0BACAF0E195A0850EDE34322CF /* DeviceKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DeviceKit/DeviceKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeviceKit/DeviceKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DeviceKit/DeviceKit.modulemap";
+				PRODUCT_MODULE_NAME = DeviceKit;
+				PRODUCT_NAME = DeviceKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56AC7335090B7ACEECAB3EA279214F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7274719FAE2990DC2AB8E6D21969BB7 /* DeviceKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DeviceKit/DeviceKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeviceKit/DeviceKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DeviceKit/DeviceKit.modulemap";
+				PRODUCT_MODULE_NAME = DeviceKit;
+				PRODUCT_NAME = DeviceKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F6789510ADCA33235B1F2AE782D1364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D40AA9BDC0C1DD252F951B5EB1F9A81 /* Pods-okraIosOfficial_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-okraIosOfficial_Example/Pods-okraIosOfficial_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-okraIosOfficial_Example/Pods-okraIosOfficial_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E08DECF5DA7EC216F0EDC1CDB9DAFF9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 480592A68013C5893439F60DF12481DB /* Pods-okraIosOfficial_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-okraIosOfficial_Example/Pods-okraIosOfficial_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-okraIosOfficial_Example/Pods-okraIosOfficial_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9CA5E0D2B6EFA1A6C5863507574093E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28ACD90553893C248B01C14E938612B3 /* Pods-okraIosOfficial_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-okraIosOfficial_Tests/Pods-okraIosOfficial_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-okraIosOfficial_Tests/Pods-okraIosOfficial_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		511C620BD2D22CE744459164C0BF6E47 /* Build configuration list for PBXNativeTarget "Pods-okraIosOfficial_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6789510ADCA33235B1F2AE782D1364 /* Debug */,
+				E08DECF5DA7EC216F0EDC1CDB9DAFF9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF6500CA2E1A662BFB307BEFD26670F1 /* Build configuration list for PBXNativeTarget "okraIosOfficial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA4A37BC9636B0F1E31610B8A716643 /* Debug */,
+				0973BFF5F6FD4E74E45C4D1FC304CF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3F3C3E9536560286B61D729F582868A /* Build configuration list for PBXNativeTarget "Pods-okraIosOfficial_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9B505D3B5AEEC8557EB89A1ED8ED2B /* Debug */,
+				F9CA5E0D2B6EFA1A6C5863507574093E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2416AB9D0716DFAC4C6C724B0E6744 /* Build configuration list for PBXNativeTarget "DeviceKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE15074050361C271BA4AF8F3492ECA /* Debug */,
+				56AC7335090B7ACEECAB3EA279214F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

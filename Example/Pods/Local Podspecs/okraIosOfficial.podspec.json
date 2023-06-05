@@ -1,0 +1,27 @@
+{
+  "name": "okraIosOfficial",
+  "version": "0.1.0",
+  "summary": "A short description of okraIosOfficial.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nzeakokosi7/okraIosOfficial",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nzeakokosi7": "nzeakokosi7@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/nzeakokosi7/okraIosOfficial.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "okraIosOfficial/Classes/**/*",
+  "dependencies": {
+    "DeviceKit": [
+      "~> 4.0"
+    ]
+  }
+}
