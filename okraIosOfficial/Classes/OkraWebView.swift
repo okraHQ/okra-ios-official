@@ -92,7 +92,9 @@ class OkraWebView: UIViewController, WKScriptMessageHandler, WKNavigationDelegat
                    "osVersion": osVersion!,
                    "platform": "ios"
                ]
-                              
+               
+               print(deviceInfo)
+               
                let htmlStringProvider = OkraHTMLStringProvider();
                var htmlString = "";
                if (useShortUrl) {
